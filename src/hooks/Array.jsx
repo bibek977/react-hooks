@@ -15,6 +15,15 @@ export default function Array() {
             price : 100
         }
     ]);
+    const addFruit = ()=>{
+        if(array.length<=3){
+            setarray([...array, {fruit : 'mango', price : 120}])
+        }
+        else{
+            // setarray('')
+
+        }
+    }
   return (
       <>
       <div className="array">
@@ -27,6 +36,7 @@ export default function Array() {
                   ) 
               
           })}
+          <button onClick={addFruit}>Add</button>
       </div>
       </>
   )
