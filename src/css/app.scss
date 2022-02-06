@@ -1,0 +1,16 @@
+.app{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.array{
+    li{
+        list-style: none;
+        color: black;
+        font-size: 2rem;
+        padding: 1rem;
+        display: inline-block;
+    }
+}
